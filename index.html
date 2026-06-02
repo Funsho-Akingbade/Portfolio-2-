@@ -1,0 +1,448 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="P4mmGzhVCNGzCvRYb1HJ0gh08YVGuv1XO45KZie-Yys" />
+<title>Funsho Akingbade | Portfolio</title>
+<meta name="description" content="Funsho Akingbade's personal portfolio - [your job/role, e.g. Frontend Developer, UI/UX Designer] based in Ibadan. Showcasing projects in web development, design, and more.">
+<meta name="robots" content="index, follow">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:#e5e7eb;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+padding:80px 20px;
+text-align:center;
+}
+
+.profile-pic{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #38bdf8;
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+margin-bottom:20px;
+transition:0.4s;
+}
+
+.profile-pic:hover{
+transform:scale(1.05);
+}
+
+h1{
+font-size:2.5rem;
+margin-bottom:10px;
+}
+
+.tagline{
+color:#94a3b8;
+margin-bottom:20px;
+}
+
+/* BUTTON */
+
+.btn{
+display:inline-block;
+background:#38bdf8;
+color:#020617;
+padding:12px 24px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#0ea5e9;
+transform:translateY(-2px);
+}
+
+/* NAV */
+
+nav{
+position:sticky;
+top:0;
+background:#020617;
+padding:15px;
+text-align:center;
+border-bottom:1px solid #1f2937;
+z-index:100;
+}
+
+nav a{
+color:#e5e7eb;
+margin:0 18px;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* SECTIONS */
+
+section{
+padding:70px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.card{
+background:#111827;
+padding:30px;
+border-radius:14px;
+margin-bottom:30px;
+box-shadow:0 10px 30px rgba(0,0,0,0.35);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+h2{
+margin-bottom:20px;
+color:#38bdf8;
+}
+
+/* SKILLS */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+}
+
+.skills span{
+background:#1f2937;
+padding:10px 16px;
+margin:6px;
+border-radius:30px;
+font-size:14px;
+border:1px solid #374151;
+transition:0.3s;
+}
+
+.skills span:hover{
+background:#38bdf8;
+color:#020617;
+}
+
+/* PROJECTS */
+
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+}
+
+.project{
+background:#020617;
+border-radius:12px;
+border:1px solid #1f2937;
+overflow:hidden;
+transition:0.3s;
+}
+
+.project:hover{
+transform:scale(1.04);
+border-color:#38bdf8;
+}
+
+.project img{
+width:100%;
+height:160px;
+object-fit:cover;
+}
+
+.project-content{
+padding:20px;
+}
+
+/* CONTACT FORM */
+
+form{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+input, textarea{
+padding:12px;
+border-radius:8px;
+border:none;
+font-family:'Poppins';
+}
+
+textarea{
+resize:none;
+height:120px;
+}
+
+button{
+background:#38bdf8;
+border:none;
+padding:12px;
+border-radius:8px;
+font-weight:600;
+cursor:pointer;
+}
+
+button:hover{
+background:#0ea5e9;
+}
+
+/* FOOTER */
+
+footer{
+background:#020617;
+text-align:center;
+padding:25px;
+margin-top:40px;
+font-size:14px;
+color:#94a3b8;
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+h1{
+font-size:2rem;
+}
+
+nav a{
+margin:0 10px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="funsho.jpg" alt="Funsho" class="profile-pic">
+
+<h1>Funsho Akingbade</h1>
+
+<p class="tagline">
+Management Information Systems Student | Data Analytics & Project Management Enthusiast
+</p>
+
+<a href="Funsho_CV.pdf" class="btn" download>Download CV</a>
+
+</header>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<section id="about">
+
+<div class="card">
+
+<h2>About Me</h2>
+
+<p>
+A driven Management Information Systems (MIS) undergraduate aiming to contribute to the development and management of technology-enabled  services through data analysis, system support, and process improvement while gaining hands-on experience in a leading fintech environment.
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<div class="card">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<span>Python</span>
+<span>Java</span>
+<span>SQL</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Git</span>
+<span>GitHub</span>
+<span>VS Code</span>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<div class="card">
+
+<h2>Projects</h2>
+
+<div class="projects-grid">
+
+<div class="project">
+
+<img src="project1.jpg">
+
+<div class="project-content">
+
+<h3>Wine Cultivar Prediction System</h3>
+
+<p>
+Machine learning model that predicts wine cultivar origin using chemical features from the Wine dataset.
+</p>
+
+</div>
+
+</div>
+
+<div class="project">
+
+<img src="project2.jpg">
+
+<div class="project-content">
+
+<h3>Movie Data Management System</h3>
+
+<p>
+Python application connected to MongoDB for CRUD operations, analytics queries and exporting reports.
+</p>
+
+</div>
+
+</div>
+
+<div class="project">
+
+<img src="project3.jpg">
+
+<div class="project-content">
+
+<h3>Facial Emotion Recognition Web App</h3>
+
+<p>
+Machine learning web application that detects and classifies human facial emotions using image data.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<div class="card">
+
+<h2>Education</h2>
+
+<h3>BSc Management Information Systems</h3>
+
+<p>Covenant University</p>
+
+<p>Expected Graduation: 2027</p>
+
+<br>
+
+<h3>SSCE</h3>
+
+<p>Christ Ambassadors International College</p>
+
+<p>2020 – 2023</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="card">
+
+<h2>Contact</h2>
+
+<p>Email: funshosamuel28@gmail.com</p>
+
+<p>
+GitHub:
+<a href="https://github.com/Funsho-Akingbade" target="_blank">
+github.com/Funsho-Akingbade
+</a>
+</p>
+
+<p>
+LinkedIn:
+<a href="https://linkedin.com/in/funsho-akingbade" target="_blank">
+linkedin.com/in/funsho-akingbade
+</a>
+</p>
+
+<br>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Funsho Akingbade. All rights reserved.</p>
+
+</footer>
+
+</body>
+</html>
+```
+
